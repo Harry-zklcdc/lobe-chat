@@ -50,6 +50,7 @@ ENV NEXT_PUBLIC_SERVICE_MODE=server
 
 # Cleck
 ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_aW52aXRpbmctaGVybWl0LTUyLmNsZXJrLmFjY291bnRzLmRldiQ
+ENV CLERK_WEBHOOK_SECRET=wh_test_xxx
 
 # S3
 ENV NEXT_PUBLIC_S3_DOMAIN=https://lobechat-img.xiao-gy.tk
