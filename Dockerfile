@@ -53,6 +53,8 @@ ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_aW52aXRpbmctaGVybWl0LTUyLmNsZXJrLm
 # S3
 ENV NEXT_PUBLIC_S3_DOMAIN=https://lobechat-img.xiao-gy.tk
 
+ENV KEY_VAULTS_SECRET=8EfeXfX1zIEidmaV60OQwBvIdo0hzrjYjFvbhageEiw=
+
 # Node
 ENV NODE_OPTIONS "--max-old-space-size=8192"
 
