@@ -45,6 +45,7 @@ ENV NEXT_PUBLIC_UMAMI_SCRIPT_URL ""
 ENV NEXT_PUBLIC_UMAMI_WEBSITE_ID ""
 
 # Service Mode
+ENV DATABASE_URL=postgresql://lobe:lobe@localhost:5432/lobe
 ENV NEXT_PUBLIC_SERVICE_MODE=server
 
 # Cleck
